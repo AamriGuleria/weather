@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+}
+#head{
+    margin-top:-4px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    background-color: black;
+    color:white;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container::before{
+    width:100%;
+    height:100%;
+    content:"";
+    background-image:url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    opacity:0.4;
+}
+#sit{
+    position: absolute;
+    top:30rem;
+    left:46rem;
+}
+#emoji{
+    position:relative;
+    padding-top: 1px;
+    width:90px;
+    height:90px;
+}
+fieldset{
+    width:230px;
+    height:350px;
+    border:1px solid black;
+    background-color:grey;
+    border-radius:30px;
+    box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.769);
+}
+fieldset:hover{
+    border:2px solid grey;
+}
+.weather{
+    height:400px;
+    width:300px;
+    background-color: rgba(245, 245, 245, 0.822);
+    flex-wrap: wrap;
+    background:transparent;
+    color:black;
+    z-index:2;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.weather1{
+    padding-bottom:40px;
+    margin-top:50px;
+    font-size:4rem;
+}
+.weather p{
+    font-size:2rem;
+}
+.weather span{
+    font-size:0.75rem;
+}
+.weather span{
+    margin:0.3rem;
+}
+.weather2 p{
+    color:black;
+}
+nav{
+    height:100px;
+    box-shadow:0 0 25px rgba(0,0,0,0.18);
+    position:absolute;
+    bottom:0%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:100px 100px 0 0;
+    padding:1rem 0;
+}
+nav form{
+    width:100px;
+}
+#place{
+    font-size:1.2rem;
+    border-radius:12px;
+    border:none;
+    border-bottom:1px solid white;
+    background-color:transparent;
+    color:white;
+    margin:10px;
+    text-align:center;
+    margin-left:-55px;
+    padding-bottom: 4px;
+}
+#place:active{
+    border:4px solid black;
+}
+nav form button{
+    background:transparent;
+    color:white;
+    font-size:15px;
+    border:none;
+    border-top:1px solid white;
+    border-radius:50%;
+    padding:8px;
+    margin-left:20px;
+}
+nav form button:hover{
+    border:1px solid white;
+}
+#place:hover{
+    border:1px solid white;
+    cursor:pointer;
+}
