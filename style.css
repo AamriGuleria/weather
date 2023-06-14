@@ -46,7 +46,6 @@
     height:100px;
 }
 fieldset{
-    overflow: scroll;
     margin-top:100px;
     overflow-wrap: break-word;
     margin-bottom:200px;
