@@ -129,13 +129,26 @@ nav form button{
 @media (max-height:700px) {
     fieldset{
         margin-top:230px;
-        height:280px;
+        height:250px;
+        width:200px;
+        overflow: scroll;
     }
     nav{
-        padding-top:150px;
+        height:50px;
+        margin-top:500px;
+        overflow:hidden;
+    }
+    nav form button{
+        height: 100px;
     }
     .container::before{
-        overflow:auto;
         background-size: cover;
+    }
+    #head{
+        position:absolute;
+        width:200px;
+    }
+    #place{
+        height:20px;
     }
 }
