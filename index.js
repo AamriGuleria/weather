@@ -9,7 +9,7 @@ const details=document.querySelector(".details");
 
 form.addEventListener("submit",search);
 
-let target="India";
+let target="Asia";
 
 const fetchData=async (target) => {
     try{
