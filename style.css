@@ -6,8 +6,9 @@
 }
 #head{
     position: fixed;
-    width:480px;
-    padding-left: 30px;;
+    width:489px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top:-4px;
     border-radius:10px;
     background-color: black;
@@ -180,5 +181,12 @@ nav form button{
     }
     #head{
         width:200px;
+        font-size:15px;
     }
+}
+@media (width:1024px) {
+    #head{
+        font-size:15px;
+    }
+    
 }
