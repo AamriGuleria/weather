@@ -14,7 +14,6 @@ let target="Asia";
 const fetchData=async (target) => {
     try{
     const api=`https://api.openweathermap.org/data/2.5/weather?q=${target}&appid=2cd28bb8fb0edeb6c8211e3697b9f5d3&units=metric`;
-    console.log(api);
     const res=await fetch(api);
     const aamri=await res.json();
     console.log(aamri);
@@ -36,7 +35,7 @@ function update(pressure,humidity,temp_max,temp_min,feels_like,temperate,city,ic
     // dateFeild.innerHTML=new Date(dt*1000-(tz*1000)).toDateString();
 }
 
-fetchData(target);
+// fetchData(target);
 
 function search(e){
     e.preventDefault();

@@ -153,3 +153,32 @@ nav form button{
         height:20px;
     }
 }
+@media (max-width:400px) {
+    .do-search input{
+        max-width:max-content;
+    }
+    
+}
+@media (max-width:500px) {
+    fieldset{
+        width:300px;
+        overflow: scroll;
+    }
+    #head{
+        width:300px;
+    }
+    #place{
+        width:max-content;
+    }
+}
+@media (max-width:300px) {
+    .do-search input{
+        max-width:max-content;
+    }
+    .weather{
+        width: 200px;
+    }
+    #head{
+        width:200px;
+    }
+}
